@@ -1,13 +1,13 @@
 //* ededin factorialinin hesablanmasi
 
-// function factorial(x){
-// if(x===0){
-//   return 1;
-// }
-// return x*factorial(x-1);
-// }
-// console.log(factorial(3));
-// console.log ("ededin factorialinin hesablanmasi");
+function factorial(x){
+if(x===0){
+  return 1;
+}
+return x*factorial(x-1);
+}
+console.log(factorial(5));
+console.log ("ededin factorialinin hesablanmasi");
 
 //*--------------------------
 
@@ -48,16 +48,57 @@
 
 //* ededlerin cemini hesablayir
 
-var array_sum = function(my_array){
+// var array_sum = function(my_array){
 
-    if (my_array.length===1){
+//     if (my_array.length===1){
 
-        return my_array[0];
-    }
-    else{
-        return my_array.pop() + array_sum(my_array);
-    }
-};
-console.log(array_sum([1,2,3,4]));
+//         return my_array[0];
+//     }
+//     else{
+//         return my_array.pop() + array_sum(my_array);
+//     }
+// };
+// console.log(array_sum([1,2,3,4]));
 
-//*--------------------------
+//*-------------------------------
+
+
+//* 
+
+
+
+//*-------------------------------
+
+
+// live time 
+
+// var today = new Date();
+// const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+// const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// console.log(month[today.getMonth()],".",weekday[today.getDay()],today.getDate(),today.getHours(),".",today.getMinutes(),".",today.getSeconds());
+// document.write(month[today.getMonth()],".",weekday[today.getDay()],".",today.getDate());
+// document.write("<br>");
+// document.write("<br>");
+// document.write(today.getHours(),":",today.getMinutes(),":",today.getSeconds());
+// setInterval(function() {
+//     var today = new Date();
+//     console.log(today.getHours(),":",today.getMinutes(),":",today.getSeconds());
+//     // document.write(today.getHours(),":",today.getMinutes(),":",today.getSeconds());
+// },1000)
+
+
+
+//ededin  tersi
+
+
+// function reverse_a_number(n){
+//     return n.split("").reverse().join("");
+// }
+// console.log(Number(reverse_a_number("01234")));
+
+
+
+
+// var a ="0123"
+// console.log(a.split(""));
+// console.log(a.split("").reverse().join(""));

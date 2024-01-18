@@ -1,13 +1,13 @@
 //* ededin factorialinin hesablanmasi
 
-function factorial(x){
-if(x===0){
-  return 1;
-}
-return x*factorial(x-1);
-}
-console.log(factorial(5));
-console.log ("ededin factorialinin hesablanmasi");
+// function factorial(x){
+// if(x===0){
+//   return 1;
+// }
+// return x*factorial(x-1);
+// }
+// console.log(factorial(5));
+// console.log ("ededin factorialinin hesablanmasi");
 
 //*--------------------------
 
@@ -102,3 +102,51 @@ console.log ("ededin factorialinin hesablanmasi");
 // var a ="0123"
 // console.log(a.split(""));
 // console.log(a.split("").reverse().join(""));
+
+
+
+//---------------------------------------
+
+//arrayin icinde minimum ededin tapilmasi  
+
+
+// var arr = [1,2,3,4,5,6];
+// var min = arr[0];
+// for (var i = 0; i < arr.length; i++){
+//   if (min > arr[i]){
+//     min = arr[i];
+//   }
+// }
+// console.log(min);
+
+//arrayin icinde minimum ededin method ile tapilmasi 
+
+// var arr = [1,2,3,4,5,6];
+
+// var num1 = [1,2,3,4,5,6];
+// var result = largestElement(num1);
+
+// function largestElement(arr) {
+//     return Math.min(...arr);
+// }
+// console.log( result);
+
+
+// sozun birinci herfinin boyumesi 
+
+function calculateDiscriminant(a, b, c) {
+  return b ** 2 - 4 * a * c;
+}
+const aCoefficient = 5;
+const bCoefficient = 6;
+const cCoefficient = 3;
+
+const discriminant = calculateDiscriminant(aCoefficient, bCoefficient, cCoefficient);
+console.log(discriminant);
+
+
+
+
+
+
+

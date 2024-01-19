@@ -1,3 +1,38 @@
+//*funksiya ile ededin tersini tapmaq
+
+// function reverse_a_number(n)
+// {
+//   n=n+ "";
+
+//   return n.split("").reverse().join("");
+// }
+// console.log(Number(reverse_a_number(1234)));
+
+
+// reverse_a_number adında bir fonksiyon tanımlanıyor. Bu fonksiyon bir sayı alır (n).
+
+// Sayı n, metin bir ifadeye dönüştürülüyor. "n+"";" işlemi sayıyı string bir ifadeye dönüştürmek için kullanılıyor. Bu, sayıyı bir metin olarak ele almak için yapılmış bir dönüşüm.
+
+// Ardından, bu metin ifade split("") yöntemi kullanılarak parçalara ayrılıyor. Bu, her rakamı ayrı bir karakter olarak ayırır. Örneğin, 1234 rakamları ["1", "2", "3", "4"] şeklinde ayrılır.
+
+// reverse() metodu kullanılarak, bu karakter dizisi tersine çevrilir. Yani, ["4", "3", "2", "1"] şeklinde olur.
+
+// Son olarak, join("") metodu kullanılarak, bu karakter dizisi birleştirilir ve tekrar bir metin ifadesine dönüştürülür. Bu, rakamların tersine çevrilmiş hali olan "4321" string ifadesini verir.
+
+// Son olarak, Number() fonksiyonu ile bu metin ifadesi tekrar sayıya dönüştürülür ve console.log ile ekrana yazdırılır.
+
+// Bu kod, sayıyı tersine çevirme işlemini string manipülasyonu kullanarak gerçekleştirir. Sayıyı tersine çevirmek için string metotları (split, reverse, join) kullanır ve ardından tekrar sayıya dönüştürür. Bu şekilde, sayının rakamları tersine çevrilir.
+
+
+
+// function truncate(str, no_words) {
+//     return str.split(" ").slice(0, no_words).join(" ");
+//   }
+  
+//   console.log(truncate('Bu kod, sayıyı tersine çevirme işlemini string manipülasyonu kullanarak gerçekleştirir.', 7));
+  
+  
+
 //* ededin factorialinin hesablanmasi
 
 // function factorial(x){
@@ -60,14 +95,7 @@
 // };
 // console.log(array_sum([1,2,3,4]));
 
-//*-------------------------------
 
-
-//* 
-
-
-
-//*-------------------------------
 
 
 // live time 
@@ -119,6 +147,8 @@
 // }
 // console.log(min);
 
+
+
 //arrayin icinde minimum ededin method ile tapilmasi 
 
 // var arr = [1,2,3,4,5,6];
@@ -134,15 +164,134 @@
 
 // sozun birinci herfinin boyumesi 
 
-function calculateDiscriminant(a, b, c) {
-  return b ** 2 - 4 * a * c;
-}
-const aCoefficient = 5;
-const bCoefficient = 6;
-const cCoefficient = 3;
 
-const discriminant = calculateDiscriminant(aCoefficient, bCoefficient, cCoefficient);
-console.log(discriminant);
+
+// function disk(a, b, c) {
+//   return b ** 2 - 4 * a * c;
+// }
+// const adeyeri = 5;
+// const bdeyeri = 6;
+// const cdeyeri = 3;
+
+// const discriminant = disk(adeyeri, bdeyeri, cdeyeri);
+// console.log(discriminant);
+
+
+//---  19.01.24 edilen practiclar  ----
+
+//arrayin icinde olmayan ededi tap
+
+// let arr = [0,1,2,3,5,6,8,9]
+// for  (let i = 0; i < arr.length; i++){
+//     if (arr.indexOf(i)==-1){
+//         console.log(i);
+//     } 
+
+// }
+
+
+// array
+
+// let arr = []
+// while(true){
+//     var x = +prompt("Enter");
+//     if(x ==0) break;
+
+//         else{
+//             arr.push(x);
+//         }
+//     }
+// console.log(arr);
+
+
+
+//inputa eded daxil olan musbet ededin cemi 
+
+// let cem = 0
+// for(var i=0; i < 10; i++){
+//     var a = +prompt("eded daxil edin");
+//     if(a>0){
+//         cem +=a;
+//     }
+// }
+// console.log(cem);
+
+//5 bolunen ededleri 
+
+// let a = +prompt("eded daxil edin");
+//     if(a%5==0){
+//         console.log(a);
+
+// }
+// else{
+//     console.log("eded bolunmur");
+// }
+
+//diskriminant
+
+// function disk(a,b,c){
+//     return a**2 -4*a*b*c;
+// }
+// const adeyeri= 3;
+// const bdeyeri= 6;
+// const cdeyeri= 2;
+
+// const discriminan = disk(adeyeri,bdeyeri,cdeyeri);
+// console.log(discriminan);
+
+//input ile daxil olan ededin menfi ve ya musbet olmasi
+
+// let a = +prompt("eded daxil edin");
+
+// if (a > 0) {
+//     console.log("musbetdir");
+// } else if (a === 0) {
+//     console.log("sifra beraberdir");
+// } else {
+//     console.log("menfidir");
+// }
+
+
+
+//ededden ededin cemini cixmaq Misal ucun: 15-6 
+
+// let a = +prompt("Enter number");
+// var remember = a
+// var sum = 0
+// while (a!==0){
+//     var qaliq = a%10
+//     a= Math.floor(a/10)
+//     sum+=qaliq
+// }
+// console.log(remember - sum);
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

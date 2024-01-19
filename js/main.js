@@ -266,34 +266,16 @@
 // console.log(remember - sum);
 
 
+//ededin reqemlerinin kvadratlari cemi
 
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let a = +prompt("Enter number");
+var ededString = a.toString();
+var cem = 0;
+for (var i = 0; i < ededString.length; i++) {
+    var number = parseInt(ededString[i]);
+    cem += number * number;
+}
+console.log(ededString);
 
 
 

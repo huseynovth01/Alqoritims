@@ -166,15 +166,7 @@
 
 
 
-// function disk(a, b, c) {
-//   return b ** 2 - 4 * a * c;
-// }
-// const adeyeri = 5;
-// const bdeyeri = 6;
-// const cdeyeri = 3;
 
-// const discriminant = disk(adeyeri, bdeyeri, cdeyeri);
-// console.log(discriminant);
 
 
 //---  19.01.24 edilen practiclar  ----
@@ -268,14 +260,190 @@
 
 //ededin reqemlerinin kvadratlari cemi
 
-let a = +prompt("Enter number");
-var ededString = a.toString();
-var cem = 0;
-for (var i = 0; i < ededString.length; i++) {
-    var number = parseInt(ededString[i]);
-    cem += number * number;
+// let a = +prompt("Enter number");
+// var ededString = a.toString();
+// var cem = 0;
+// for (var i = 0; i < ededString.length; i++) {
+//     var number = parseInt(ededString[i]);
+//     cem += number * number;
+// }
+// console.log(cem);
+
+
+// 1 den 100 e kimi olan ededlerin ceminin mukemmel olub olmadigini yoxlayin 
+
+
+
+// inputa daxil olan ededin reqemlerinin  necesinin cut oldugunu tapin
+
+
+
+// cut ededlerin tapilmasi
+
+// function number (a,b){
+//     for (var i=a;i<=b;i++){
+//         if(i%2===0){
+//             console.log(i);
+//         }
+//     }
+// };
+// number(1,100);
+
+
+
+
+
+
+
+//-------- 21.01.24 ---------
+
+
+
+
+
+
+//-1- Bir array’iniz  var ve bir funksiya yaradirsiz eğer arayın ici doludursa sonuncu elementi qaytaracaq eğer arrayin ici bosdusa ekrana -1 qaytaracaq
+
+
+// function lastNumber(eded) {
+//     if (eded && eded.length > 0) {
+//         return eded[eded.length - 1];
+//     } else {
+//         return -1;
+//     }
+// }
+// var array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+// var lastNumberArray = lastNumber(array);
+// console.log(lastNumberArray);
+
+// var nanArray = [];
+// var nanArrayNumber = lastNumber(nanArray);
+// console.log(nanArrayNumber);
+
+
+
+//-2- Bir mix array’iniz var 30’dan boyuk ededleri artan sıra ile ekranda göstermek
+
+// var mixArray = [12, 34, 54, 11, 25, 67, 23, , 43, 28, 29, 6];
+// var mostnumber = mixArray.filter(function(number) {
+//     return number > 30;
+// });
+// mostnumber.sort(function(a,b) {
+//     return a - b;
+// });
+// console.log(mostnumber);
+
+// var mixArray = [120, 34, 4, 31, 67];
+// for (var i = 0; i < mixArray.length; i++) {
+//     if(mixArray[i] > 30){
+//         console.log(mixArray[i]);
+//     }
+// }
+
+
+
+//-3- isdifadeci reqem daxil edir 4reqemli  ve reqemlerinin icinde 2 ve 3’cu reqemler 
+//eger cutduse  ekrana her ikisi cutdur cixacaq eğer biri tek biri cutdurse 
+//ekrana biri tek biri cutdur cixacaq eks halda her ikisi tekdise ekrana her 
+//ikisi tekdir cixacaq
+
+// let enterInput = prompt("Dörd reqemli eded yazin:");
+// let num = parseInt(userInput);
+
+// if (isNaN(num) || num < 1000 || num > 9999) {
+//     console.log("Xeta dord reqemli eded yazin.");
+// } else {
+//     let num2 = Math.floor((num / 10) % 10);
+//     let num3 = num % 10;
+
+//     if (num2 % 2 === 0 && num3 % 2 === 0) {
+//         console.log("Her ikisi cut");
+//     } else if (num2 % 2 === 0 || num3 % 2 === 0) {
+//         console.log("Biri cut,biri tek.");
+//     } else {
+//         console.log("Her ikisi tek.");
+//     }
+// }
+
+
+//-4- Daxil olan ededden sonraki ilk n sade ededi tap
+
+// function issimple(number){
+//     for (var i = 2, sqrt = Math.sqrt(number); i <= sqrt; i++) {
+//       if (number % i === 0) return false;
+//     }
+//     return number > 1;
+// }
+// var inputNumber = +prompt("Eded daxil edin");
+// while (!issimple(inputNumber)) {
+//     inputNumber ++;
+// }
+// console.log(inputNumber);
+
+// -5-   n=7
+// 1
+// 1 2 
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
+// 1 2 3 4 5 6 
+// 1 2 3 4 5 6 7 
+
+// var n = 7;
+// for (var i = 1; i <=n;i++) {
+//     var row = "";
+//     for (var j =1 ; j<=i;j++) {
+//         row = j + " " + row + " ";
+// }
+// console.log(row);
+// }
+
+
+
+//-6-  a = 4,b = 5
+// **
+// **
+// **
+// **
+// **
+
+var a = 4;
+var b = 5;
+for (var i = 0; i < a; i++) {
+  for (var j = 0; j < b; j++) {
+  }
+  console.log();
 }
-console.log(ededString);
+
+
+
+
+//-7-  mix array verilib icinde stringleri ekrana cixardın
+
+
+
+
+//-8- mix(yəni string,null,{} və.s) array verilib  icinde ededleri ekrana cixardın 
+
+
+
+//-9- bir array və içində bir neçə elementlər var içerisinde sonu 9’olan neçə element var
+
+
+
+//-10-  input ile daxil olunan ededin sade yoksa mürekkep oldugunu tapin
+
+
+
+//-12-  input ile daxil olunan ededin reqemlerinnen en boyuyunu tapin
+
+
+
+
+
+
+
+
 
 
 

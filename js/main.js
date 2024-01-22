@@ -208,6 +208,7 @@
 // }
 // console.log(cem);
 
+
 //5 bolunen ededleri 
 
 // let a = +prompt("eded daxil edin");
@@ -399,50 +400,79 @@
 // }
 
 
-
-//-6-  a = 4,b = 5
+//-6-  a = 4,b = 5  buglu kod 
 // **
 // **
 // **
 // **
 // **
 
-var a = 4;
-var b = 5;
-for (var i = 0; i < a; i++) {
-  for (var j = 0; j < b; j++) {
-  }
-  console.log();
-}
-
-
+// var a = 4;
+// var b = 5;
+// for (var i = 0; i < a; i++) {
+//   for (var j = 0; j < b; j++) {
+//   }
+//   console.log();
+// }
 
 
 //-7-  mix array verilib icinde stringleri ekrana cixardın
 
+// var mixArray = [ 2, "Toyota" ,4, "Lexus" ,6, "Mercedes" ];
+
+// mixArray.forEach(function(mixin) {
+//     if (typeof mixin === 'string') {
+//         console.log(mixin);
+//     }
+// });
 
 
 
 //-8- mix(yəni string,null,{} və.s) array verilib  icinde ededleri ekrana cixardın 
 
+// var mixArray = [ 2, "Toyota" ,4, "Lexus" ,6, "Mercedes" ];
 
+// mixArray.forEach(function(mixin) {
+//     if (typeof mixin === 'number') {
+//         console.log(mixin);
+//     }
+// });
 
 //-9- bir array və içində bir neçə elementlər var içerisinde sonu 9’olan neçə element var
 
+// var countArray = [12,29,39,23,33,79,34,59];
+// for(var i = 0; i < countArray.length; i++){
+//   if(countArray[i] % 10 ===9){
+//     console.log(countArray[i]);
+//   } ;
+// }
 
 
 //-10-  input ile daxil olunan ededin sade yoksa mürekkep oldugunu tapin
 
+// var enterCount = +prompt("Eded daxil edin.");
+// if(isFinite(enterCount) && enterCount % 1 === 0) {
+//   console.log("Daxil edilen eded  sade ededdir.");
+// }
+// else{
+//   console.log("Daxil edilen eded murekkebdir.");
+// }
 
 
 //-12-  input ile daxil olunan ededin reqemlerinnen en boyuyunu tapin
 
-
-
-
-
-
-
+// var enterNumber = prompt("Eded daxil edin.");
+// var num = parseInt(enterNumber);
+// num = Math.abs(num);
+// var maxNumber = 0;
+// while (num > 0) {
+//   var number = num % 10;
+//   if (number > maxNumber) {
+//     maxNumber = number;
+//   }
+//   num = Math.floor(num / 10);
+// }
+// console.log("Daxil edilen ededin en boyuk reqemini tapin: " + maxNumber);
 
 
 

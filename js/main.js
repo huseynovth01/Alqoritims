@@ -344,7 +344,7 @@
 //ikisi tekdir cixacaq
 
 // let enterInput = prompt("Dörd reqemli eded yazin:");
-// let num = parseInt(userInput);
+// let num = parseInt(enterInput);
 
 // if (isNaN(num) || num < 1000 || num > 9999) {
 //     console.log("Xeta dord reqemli eded yazin.");

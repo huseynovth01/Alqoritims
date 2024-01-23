@@ -414,7 +414,7 @@
 // console.log(str);
 
 
-//-7-  mix array verilib icinde stringleri ekrana cixardın
+//-7- mix array verilib icinde stringleri ekrana cixardın
 
 // var mixArray = [ 2, "Toyota" ,4, "Lexus" ,6, "Mercedes" ];
 
@@ -457,6 +457,7 @@
 // }
 
 
+
 //-12-  input ile daxil olunan ededin reqemlerinnen en boyuyunu tapin
 
 // var enterNumber = prompt("Eded daxil edin.");
@@ -468,6 +469,7 @@
 //   if (number > maxNumber) {
 //     maxNumber = number;
 //   }
-//   num = Math.floor(num / 10);
+//   num = Math.floor(num / 10); 
 // }
 // console.log("Daxil edilen ededin en boyuk reqemini tapin: " + maxNumber);
+

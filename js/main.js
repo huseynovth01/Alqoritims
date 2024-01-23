@@ -404,11 +404,14 @@
 
 // var a = 4;
 // var b = 5;
-// for (var i = 0; i < a; i++) {
-//   for (var j = 0; j < b; j++) {
+// var str = "";
+// for (var i = 0; i < b; i++) {
+//   for (var j = 0; j < a; j++) {
+//     str += "*" 
 //   }
-//   console.log();
+//   str +='\n';
 // }
+// console.log(str);
 
 
 //-7-  mix array verilib icinde stringleri ekrana cixardın

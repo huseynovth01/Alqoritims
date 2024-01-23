@@ -325,20 +325,15 @@
 
 //-2- Bir mix array’iniz var 30’dan boyuk ededleri artan sıra ile ekranda göstermek
 
-// var mixArray = [12, 34, 54, 11, 25, 67, 23, , 43, 28, 29, 6];
-// var mostnumber = mixArray.filter(function(number) {
-//     return number > 30;
+// var mixArray = [120, 34, 4, 31, 67];
+// var filteredArray = mixArray.filter(function(element) {
+//     return element > 30;
 // });
-// mostnumber.sort(function(a,b) {
+// filteredArray.sort(function(a, b) {
 //     return a - b;
 // });
-// console.log(mostnumber);
-
-// var mixArray = [120, 34, 4, 31, 67];
-// for (var i = 0; i < mixArray.length; i++) {
-//     if(mixArray[i] > 30){
-//         console.log(mixArray[i]);
-//     }
+// for (var i = 0; i < filteredArray.length; i++) {
+//     console.log(filteredArray[i]);
 // }
 
 
@@ -394,7 +389,7 @@
 // for (var i = 1; i <=n;i++) {
 //     var row = "";
 //     for (var j =1 ; j<=i;j++) {
-//         row = j + " " + row + " ";
+//         row = row + " " + j + " ";
 // }
 // console.log(row);
 // }
@@ -473,9 +468,3 @@
 //   num = Math.floor(num / 10);
 // }
 // console.log("Daxil edilen ededin en boyuk reqemini tapin: " + maxNumber);
-
-
-
-
-
-
